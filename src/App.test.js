@@ -7,5 +7,10 @@ test("On load, renders App without error", ()=> {
 });
 
 test("On load, renders the app header", ()=> {
+    //Arrange: Render out App component
+    render(<App/>);
     
+    //Act: get our header element
+    //Assert: Does our element exist
+
 });
