@@ -15,4 +15,7 @@ test("On load, renders the app header", ()=> {
 
     //Assert: Does our element exist
     expect(header).toBeInTheDocument();
+    expect(header).toBeTruthy();
+    expect(header).toHaveTextContent(/add new animal/i);
+    expect(header).not.toBeFalsy();
 });
