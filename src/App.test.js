@@ -11,8 +11,7 @@ test("On load, renders the app header", ()=> {
     render(<App/>);
 
     //Act: get our header element
-    const header = screen.getByText("Add New Animal");
-    console.log(header);
+    const header = screen.queryByText("Add New Animal");
 
     //Assert: Does our element exist
 
