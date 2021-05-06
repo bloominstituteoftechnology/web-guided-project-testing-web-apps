@@ -5,3 +5,7 @@ import App from "./App";
 test("On load, renders App without error", ()=> {
     render(<App/>);
 });
+
+test("On load, renders the app header", ()=> {
+    
+});
