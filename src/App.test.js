@@ -14,5 +14,6 @@ test("On load, renders the app header", ()=> {
     const header = screen.queryByText("Add New Animal");
 
     //Assert: Does our element exist
+    expect(header).toBeInTheDocument();
 
 });
