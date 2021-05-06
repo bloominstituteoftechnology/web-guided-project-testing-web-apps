@@ -15,5 +15,4 @@ test("On load, renders the app header", ()=> {
 
     //Assert: Does our element exist
     expect(header).toBeInTheDocument();
-
 });
