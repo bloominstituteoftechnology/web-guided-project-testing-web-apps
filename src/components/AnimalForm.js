@@ -33,6 +33,7 @@ const AnimalForm = ({ errors, touched, values }) => {
           id="species"
           type="text"
           name="species"
+          placeholder="species"
           onChange={event => handleChange(event)}
         />
         <label htmlFor="age">Age:</label>
@@ -40,6 +41,7 @@ const AnimalForm = ({ errors, touched, values }) => {
           id="age"
           type="text"
           name="age"
+          placeholder="age"
           onChange={event => handleChange(event)}
         />
         <label htmlFor="notes">Notes:</label>
@@ -47,6 +49,7 @@ const AnimalForm = ({ errors, touched, values }) => {
           id="notes"
           type="text"
           name="notes"
+          placeholder="notes"
           onChange={event => handleChange(event)}
         />
         <button>Submit!</button>
